@@ -15,7 +15,8 @@ low.py
 server.py
   A more advanced Werkzeug script that can be used with WSGI or present it's own web server.  It uses templates to display the form and result page.
 
-To install the dependencies run
+To install the dependencies run::
+
   ./setup.py install
 
   
