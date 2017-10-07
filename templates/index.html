@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block title %}URL Request{% endblock %}
+{% block body %}
+  <h2>Enter a URL</h2>
+			<form class="col s12" method='POST' action='/test_form/process'>
+			<div class="row">
+				<div class="input-field col s6">
+					<i class="material-icons prefix">link</i>
+					<input placeholder="http://" id="url" type="text" name='url' class="validate">
+					<label for="url">URL</label>
+				</div>
+				<div class="input-field col s6">
+					<input class="btn waves-effect waves-light" type="submit" name="action">Submit
+						<i class="material-icons right">send</i>
+					</input>
+				</div>
+			</div>
+			</form>
+{% endblock %}
